@@ -1,0 +1,44 @@
+<div id="cupcakes-gallery">
+	<div id="content">
+		<div id="bespoke"><p class="textReplace">Not what you're after? We can create a bespoke cake! Drop us an email or give us a call.</p></div>
+		<div id="title"><h1 class="textReplace">Cupcakes Gallery</h1></div>
+		<div id="further_info"><h2 class="textReplace">Please click on the cake for further information &amp; prices.</h2></div>
+		<div class="clearAll"><!--  --></div>
+		<ol id="gallery">
+			<li class="r1 c1"><a href="<?php echo $this->url(array(), 'red-velvet-cupcake')?>"><span>redvelvet</span></a></li>
+			<li class="r1 c2"><a href="<?php echo $this->url(array(), 'blueberry-burst-cupcake') ?>"><span>blueberry burst</span></a></li>
+			<li class="r1 c3"><a href="<?php echo $this->url(array(), 'chocolate-cupcake') ?>"><span>chocolate</span></a></li>
+			<li class="r1 c4"><a href="<?php echo $this->url(array(), 'bonbons-cupcake') ?>"><span>bonbons</span></a></li>
+			<li class="r1 c5"><a href="<?php echo $this->url(array(), 'fragola-cupcake') ?>"><span>fragola</span></a></li>
+			<li class="r2 c1"><a href="<?php echo $this->url(array(), 'dairy-fudge-cupcake') ?>"><span>dairy fudge</span></a></li>
+			<li class="r2 c2"><a href="<?php echo $this->url(array(), 'double-decker-cupcake') ?>"><span>double decker</span></a></li>
+			<li class="r2 c3"><a href="<?php echo $this->url(array(), 'oreo-cupcake') ?>"><span>oreo</span></a></li>
+			<li class="r2 c4"><a href="<?php echo $this->url(array(), 'wedding-cupcake') ?>"><span>wedding cupcake</span></a></li>
+			<li class="r2 c5"><a href="<?php echo $this->url(array(), 'black-forest-cupcake') ?>"><span>black forest</span></a></li>
+			<li class="r3 c1"><a href="<?php echo $this->url(array(), 'mint-choc-cupcake') ?>"><span>mint choc</span></a></li>
+			<li class="r3 c2"><a href="<?php echo $this->url(array(), 'top-trumps-cupcake') ?>"><span>top trumps</span></a></li>
+			<li class="r3 c3"><a href="<?php echo $this->url(array(), 'chocolate-cookie-cupcake') ?>"><span>choc cookie</span></a></li>
+			<li class="r3 c4"><a href="<?php echo $this->url(array(), 'i-heart-u-cupcake') ?>"><span>i heart u</span></a></li>
+			<li class="r3 c5"><a href="<?php echo $this->url(array(), 'football-cupcake') ?>"><span>football</span></a></li>
+			<li class="r4 c1"><a href="<?php echo $this->url(array(), 'bespoke-cupcake') ?>"><span>bespoke</span></a></li>
+			<li class="r4 c2"><a href="<?php echo $this->url(array(), 'cherry-on-top-cupcake') ?>"><span>cherry on top</span></a></li>
+			<li class="r4 c3"><a href="<?php echo $this->url(array(), 'deluxe-choc-box') ?>"><span>deluxe choc box</span></a></li>
+			<li class="r4 c4"><a href="<?php echo $this->url(array(), 'baby-shower-cupcake') ?>"><span>baby shower</span></a></li>
+			<li class="r4 c5"><a href="<?php echo $this->url(array(), 'cat-themed-minicupcakes') ?>"><span>cat themed</span></a></li>
+			<li class="r5 c1"><a href="<?php echo $this->url(array(), 'mixed-box-cupcakes') ?>"><span>mixed box</span></a></li>
+			<li class="r5 c2"><span>watch this space!</span></li>
+			<li class="r5 c3"><span>watch this space!</span></li>
+			<li class="r5 c4"><span>watch this space!</span></li>
+			<li class="r5 c5"><span>watch this space!</span></li>
+		</ol>
+		<div class="clearAll"><!--  --></div>
+		<div class="uppercase" id="gallery-prices">
+			<h3 class="blue">Cupcake Prices: <span class="small">(Minimum cupcake order is a dozen)</span></h3>
+			<p class="prices">&pound;22 for one dozen</p>
+			<p>For larger orders &amp; mixed selections please give us a call on 0114 266 4573 or email <a href="mailto:enquiries@hunkydorycakes.co.uk">enquiries@hunkydorycakes.co.uk</a>. Hunkydory cakes deliver to sheffield &amp; the surrounding area. Collection service aso available.</p>
+		</div>
+		<div id="things-to-know"><a href="<?php echo $this->url(array(), 'making-an-order') ?>"><img src="/images/things-to-know-order.gif" alt="Things to know when making an order" /></a></div>
+		<div id="return-home"><a href="<?php echo $this->url(array(), 'cupcakes')?>"><img src="/images/return-homepage.gif" alt="Return to the homepage" /></a></div>
+		<div class="clearAll"><!--  --></div>
+	</div>
+</div>

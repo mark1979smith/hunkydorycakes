@@ -1,0 +1,11 @@
+<div id="favours">
+	<div id="content">
+		<div id="banner"><a href="<?php echo $this->url(array(), 'favours-gallery') ?>" id="banner-enter-gallery"><img src="/images/enter-gallery-green.gif" width="203" height="19" alt="Enter Gallery" /></a></div>
+		<div id="title"><h1 class="textReplace">Favours</h1></div>
+		<div id="enter-gallery"><a href="<?php echo $this->url(array(), 'favours-gallery')?>"><img src="/images/enter-gallery.gif" height="15" width="218" alt="Enter Gallery" /></a></div>
+		<div class="clearAll"><!--  --></div>
+		<p>A selection of hand made Wedding Favours, all beautifully presented in cellophane packaging and ribbon tie to match your wedding's chosen colour scheme.</p>
+		<div class="clearAll"><!--  --></div>
+		<div id="return-home" class="textReplace">Return to the homepage</div>
+	</div>
+</div>

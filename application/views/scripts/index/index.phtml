@@ -1,0 +1,25 @@
+<div id="index">
+	<div id="content">
+		<div id="banner-title"><p class="textReplace">Delicious homemade cakes for all occasions</p></div>
+		<ol id="banner-nav">
+			<li class="l1 textReplace">Wedding cakes and flavours</li>
+			<li class="l2 textReplace">Cupcakes</li>
+			<li class="l3 textReplace">Party cakes</li>
+			<li class="l4 textReplace">Anniversary cakes</li>
+			<li class="l5 textReplace">Corporate cakes</li>
+		</ol>
+		<div id="banner" class="clearAll"><?php if (!is_null($this->noticeBoard)) :
+			echo '<div class="noticeBoard">', $this->noticeBoard, '</div>';
+		else : ?><!--  --><?php endif; ?></div>
+		<div id="title"><h1 class="textReplace">Home</h1></div>
+		<div id="icons">
+			<div id="cake-workshop" class="textReplace"><a href="<?php echo $this->url(array(), 'workshop') ?>">Visit our Cake Workshop</a></div>
+			<div id="tea-party" class="textReplace"><a href="<?php echo $this->url(array(), 'tea-party') ?>">Visit our Tea Party</a></div>
+			<div id="facebook" class="textReplace"><a href="http://www.facebook.com/hunkydorycakes">Like us on Facebook</a></div>
+			<div id="twitter" class="textReplace"><a href="http://www.twitter.com/#!/hunkydorycakesx">Follow us on Twitter</a></div>
+		</div>
+		<div class="clearAll"><!--  --></div>
+		<p>HUNKYDORY CAKES cake designer Anna Williams has a passion for fashionable, luxurious and couture cakes. Whether it's scrumptious cupcakes or wedding, birthday, and celebration cakes, Hunkydory Cakes combine the finest ingredients with beautiful design to produce decadent cake creations. But don't just take our word for it - <a href="<?php echo $this->url(array(), 'testimonials' )?>">read the testimonials!</a> </p>
+		<p>Hunkydory Cakes aims to provide the dream cake for any special occasion. Please feel free to contact Anna by phone or email to find out more information, place an order or to arrange a consultation. Hunkydory cakes deliver within Sheffield &amp; the surrounding area.</p>
+	</div>
+</div>

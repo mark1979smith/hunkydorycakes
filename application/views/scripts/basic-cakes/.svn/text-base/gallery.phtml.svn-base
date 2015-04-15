@@ -1,0 +1,28 @@
+<div id="basic-cakes-gallery">
+	<div id="content">
+		<div id="bespoke"><p class="textReplace">Not what you're after? We can create a bespoke cake! Drop us an email or give us a call.</p></div>
+		<div id="title"><h1 class="textReplace">Basic Cakes Gallery</h1></div>
+		<div id="further_info"><h2 class="textReplace">Please click on the cake for further information &amp; prices.</h2></div>
+		<div class="clearAll"><!--  --></div>
+		<ol id="gallery">
+			<li class="r1 c1"><a href="<?php echo $this->url(array(), 'cappuccino-cake') ?>"><span>cappuccino cake</span></a></li>
+			<li class="r1 c2"><a href="<?php echo $this->url(array(), 'chocolate-cake') ?>"><span>chocolate cake</span></a></li>
+			<li class="r1 c3"><a href="<?php echo $this->url(array(), 'blueberry-cake') ?>"><span>blueberry cake</span></a></li>
+			<li class="r1 c4"><a href="<?php echo $this->url(array(), 'biscuits')?>"><span>biscuits</span></a></li>
+			<li class="r1 c5"><a href="<?php echo $this->url(array(), 'victoria-sponge-cake') ?>"><span>victoria sponge</span></a></li>
+			<li class="r2 c1"><a href="<?php echo $this->url(array(), 'deluxe-fruit-cake')?>"><span>deluxe fruit cake</span></a></li>
+			<li class="r2 c2"><a href="<?php echo $this->url(array(), 'lemon-tart-cake') ?>"><span>lemon cake</span></a></li>
+			<li class="r2 c3"><a href="<?php echo $this->url(array(), 'banana-mascapone-cake') ?>"><span>banana mascarpone</span></a></li>
+			<li class="r2 c4"><a href="<?php echo $this->url(array(), 'red-velvet-cake') ?>"><span>red velvet cake</span></a></li>
+			<li class="r2 c5"><a href="<?php echo $this->url(array(), 'lemon-zest-cake') ?>"><span>lemon zest cake</span></a></li>
+			<li class="r3 c1"><a href="<?php echo $this->url(array(), 'apple-crumble-cake') ?>"><span>apple crumble cake</span></a></li>
+			<li class="r3 c2"><a href="<?php echo $this->url(array(), 'get-well-soon-cake') ?>"><span>get well soon cake</span></a></li>
+			<li class="r3 c3"><a href="<?php echo $this->url(array(), 'carrot-cake') ?>"><span>carrot cake</span></a></li>
+			<li class="r3 c4"><span>watch this space!</span></li>
+			<li class="r3 c5"><span>watch this space!</span></li>
+		</ol>
+		<div class="clearAll"><!--  --></div>
+		<div id="things-to-know"><a href="<?php echo $this->url(array(), 'making-an-order') ?>"><img src="/images/things-to-know-order.gif" alt="Things to know when making an order" /></a></div>
+		<div id="return-home"><a href="<?php echo $this->url(array(), 'basic-cakes')?>"><img src="/images/return-homepage.gif" alt="Return to the homepage" /></a></div>
+	</div>
+</div>

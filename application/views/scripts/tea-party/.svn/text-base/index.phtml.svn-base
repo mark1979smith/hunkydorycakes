@@ -1,0 +1,41 @@
+<div id="tea-party">
+	<div id="content">
+			<div id="banner"><!--  --></div>
+		<div id="column1">
+			<div id="title"><h1 class="textReplace">Tea Party</h1></div>
+			<div class="clearAll"><!--  --></div>
+			<p>At Hunkydory Cakes we love any excuse for a party. So if you would like to hire us for a <strong>birthday party, hen party, meeting</strong> or just feel like having an excuse for <strong>a good old get together with friends</strong> then why not take a look at our hunkydory tea party packages. If you live in Sheffield, Chesterfield or the local area why not give it a try! Hunkydory will provide all the beautiful vintage china and bits and bobs so you don't need to worry about organising a single thing, plus you aren't left with the clearing up! We will put on a delicious tea party banquet of freshly baked cakes, scones, cupcakes and sandwiches for the delight of your guests. All this in the comfort of your own home!</p> 
+			<p>A Hunkydory Tea Party is a great party idea! But don't just take our word for it, please take a look at our <a href="<?php echo $this->url(array(), 'testimonials') ?>">testimonials</a> and visit us on <a href="http://www.facebook.com/pages/Hunkydory-Cakes/140420469351784">Facebook</a> to see some Hunkydory Tea Party pictures.</p>
+			<h2>Packages</h2>
+			<p><strong>Groups of 4+:<br />Hunkydory Tea party - Standard: &pound;25 per person<br />Hunkydory Tea party - Deluxe: &pound;29 per person.</strong></p>
+			<p>Why not make a day of it and combine this with a <a href="<?php echo $this->url(array(), 'workshop') ?>"><strong>Hunkydory Workshop?</strong></a><br /><strong>Hunkydory Standard Tea Party &amp; Workshop</strong> (typically around 4 &amp; a half hours) <strong>- &pound;44 per person.</strong><br /><strong>Hunkydory Deluxe Tea Party &amp; Workshop</strong> (typically around 4 &amp; a half hours) <strong>- &pound;48 per person.</strong></p>
+			<h2>How to book your tea party</h2>
+			<p>Please don't hesitate to contact Anna for more information regarding <strong>booking</strong> a <strong>Hunkydory Tea Party</strong>, give her a call on <strong>0114 266 4573</strong> or email her at <a href="mailto:enquiries@hunkydorycakes.co.uk"><strong>enquiries@hunkydorycakes.co.uk</strong></a>.</p>
+			<div class="box">
+				<p><strong>Hunkydory Tea party - Standard: &pound;25 per person, package includes:</strong></p>
+				<p>&middot; Table dressed in white linen tablecloths, scattered rose petals and love hearts.<br />&middot; A fresh rose for every guest.<br />&middot; Vintage china and traditional Sheffield steel cutlery. <br />&middot; Individual name cards and seating plan.<br />&middot; Invitations posted to guests.</p>
+				<p>Finger sandwiches available on granary and white bread. Selection includes:<br />&middot; Cucumber and cream cheese.<br />&middot; Grated mature cheddar cheese.<br />&middot; Free-range egg, mayonnaise, black pepper and cress.<br />&middot; Ham.</p>
+				<p>Cake stand/stands full of:<br />&middot; Freshly baked raisin scones with clotted cream and strawberry preserve.<br />&middot; Vanilla & fresh Strawberry cupcakes.<br />&middot; Fresh strawberries.</p>
+				<p>Cake of your choice, options include (freshly baked that day):<br />&middot; Traditional Victoria sponge cake.<br />&middot; Indulgent chocolate sponge cake.<br />&middot; Espresso sponge cake.<br />&middot; Lemon Zest sponge cake.<br />&middot; Orange Zest sponge cake.</p>
+				<p>Beverage<br />&middot;English breakfast tea.</p>			
+			</div>
+			<div class="box">
+				<p><strong>Hunkydory Tea party - Deluxe: &pound;29 per person package includes:</strong></p>
+				<p>&middot; Table dressed in white linen tablecloths, scattered rose petals and love hearts.<br />&middot; A fresh rose for every guest.<br />&middot; Vintage china and traditional Sheffield steel cutlery.<br />&middot; Individual name cards and seating plan.<br />&middot; Invitations posted to guests.</p>
+				<p>Finger sandwiches available on granary and white bread.<br />Selection includes:<br />&middot; Smoked Scottish salmon.<br />&middot; Roast Chicken.<br />&middot; Free-range eggs, mayonnaise, black pepper and cress.<br />&middot; Cucumber and cream cheese.<br />&middot; Grated mature cheddar cheese.<br />&middot; Ham.</p>
+				<p>Cake stand/stands full of:<br />&middot; Freshly baked raisin scones with clotted cream and strawberry preserve.<br />&middot; Vanilla &amp; fresh Strawberry cupcakes.<br />&middot; Fresh strawberries</p>
+				<p>Cake of your choice options include (freshly baked that day) -<br />&middot; Traditional Victoria sponge cake<br />&middot; Indulgent chocolate sponge cake<br />&middot; Espresso sponge cake<br />&middot; Lemon Zest sponge cake<br />&middot; Orange Zest sponge cake<br />&middot; Red Velvet sponge cake<br />&middot; Banana cake<br />&middot; Fruit cake<br />&middot; Carrot cake<br />&middot; Cake of your choice that is not listed.</p>
+				<p>Beverage<br />&middot; English breakfast tea<br />&middot; Glass of Prosecco/Bucks-fizz</p>
+			</div>
+			
+		</div>
+		<div id="column2">
+			<div id="background"><!--  --></div>
+			<div class="clearAll"><!--  --></div>
+			<div id="bottom-banner"><p class="textReplace">* Photographs are complimentary with either a cupcake decorating or chocolate Lovepops workshop. Not available on standard tea parties.</p></div>
+		</div>
+		<div class="clearAll"><!--  --></div>
+		<div id="return-home"><a href="/"><img src="/images/return-homepage.gif" height="13" width="260" alt="Return to the homepage" /></a></div>
+		<div class="clearAll"><!--  --></div>
+	</div>
+</div>

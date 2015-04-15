@@ -1,0 +1,22 @@
+<div id="product">
+	<div id="content" class="yacht">
+		<div id="info-container">
+			<div id="title" class="<?php echo $this->titleClass ?>"><h1 class="textReplace"><?php echo $this->title ?></h1></div>
+			<div class="clearAll"><!--  --></div>
+			<h2><?php echo $this->header ?></h2>
+			<?php echo $this->info ?>
+			<img src="/images/products/<?php echo $this->image ?>" />
+			<div class="clearAll"><!--  --></div>
+			<p><a href="http://www.facebook.com/media/set/?set=a.411315735595588.94316.140420469351784&type=3">Click here</a> to view more picture of the 'Oyster 56 Yacht Cake'.<br />The cake received press attention, <a href="http://www.sheffieldtelegraph.co.uk/lifestyle/birthday-surprise-is-a-piece-of-cake-1-4924754">click here</a> to read the article.</p>
+			<a href="<?php echo $this->url(array(), $this->route . '-gallery') ?>" id="back-to-gallery"><img src="/images/return-gallery.gif" alt="Return to Gallery" /></a>
+			<?php if (is_null($this->noticeBoard)) :?>
+				<?php echo $this->orderForm; ?>		
+				<?php echo $this->orderFormText; ?>
+			<?php else : ?>
+				<?php echo $this->noticeBoard ?>
+			<?php endif; ?>	
+		</div>
+		<div class="clearAll"><!--  --></div>
+	</div>
+	<div class="clearAll"><!--  --></div>
+</div>

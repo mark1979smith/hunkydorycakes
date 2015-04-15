@@ -1,0 +1,67 @@
+<?php echo $this->doctype();?>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>  
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+  <?php print $this->headTitle(); ?>
+  <?php print $this->headMeta(); ?>
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/jquery-ui.css" />
+  <?php echo $this->headLink() ?>
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+	  google.load("jquery", "1");
+	  google.load("jqueryui", "1");
+  </script>
+  <?php echo $this->inlineScript() ?>
+  <script type="text/javascript" src="/js/site.packed.js"></script>
+  <?php echo $this->headScript() ?>
+</head> 
+<body>
+	<div id="main">
+		<div id="header">
+			<div class="content">
+				<div id="logo" class="textReplace">Hunkydory Cakes</div>
+				<div id="enquiries" class="textReplace">For enquiries and wedding cake appointments call 0114 266 4573 or email enquiries@hunkydorycakes.co.uk</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="content">
+				<ol id="top-nav">
+					<li><a href="/">home</a></li>
+					<li><a href="<?php echo $this->url(array(), 'wedding-cakes'); ?>">wedding <img src="/images/nav-down.png" alt="down arrow" /></a><ol><li><a href="<?php echo $this->url(array(), 'wedding-cakes'); ?>">wedding cakes</a></li><li><a href="<?php echo $this->url(array(), 'favours'); ?>">wedding favours</a></li></ol></li>
+					<li><a href="<?php echo $this->url(array(), 'party-cakes') ?>">party cakes <img src="/images/nav-down.png" alt="down arrow" /></a><ol><li><a href="<?php echo $this->url(array(), 'party-cakes') ?>">party cakes</a></li><li><a href="<?php echo $this->url(array(), 'anniversary-cakes'); ?>">anniversary cakes</a></li><li><a href="<?php echo $this->url(array(), 'childrens-cakes')?>">children's cakes</a></li><li><a href="<?php echo $this->url(array(), 'christening-cakes')?>">christening cakes</a></li></ol></li>
+					<li><a href="<?php echo $this->url(array(), 'cupcakes') ?>">cupcakes</a></li>
+					<li><a href="<?php echo $this->url(array(), 'tea-party') ?>">hunkydory tea party</a> <img src="/images/nav-down.png" alt="down arrow" /><ol><li><a href="<?php echo $this->url(array(), 'tea-party') ?>">hunkydory tea party</a></li><li><a href="<?php echo $this->url(array(), 'workshop') ?>">hunkydory workshop</a></li></ol></li>
+					<li><a href="<?php echo $this->url(array(), 'corporate-cake') ?>">corporate cakes</a></li>
+					<li><a href="<?php echo $this->url(array(), 'basic-cakes') ?>">hunkydory basics</a></li>
+					<li><a href="<?php echo $this->url(array(), 'fillings-and-flavours') ?>">fillings &amp; flavours</a></li>
+					<li><a href="<?php echo $this->url(array(), 'contact') ?>">contact <img src="/images/nav-down.png" alt="down arrow" /></a><ol><li><a href="<?php echo $this->url(array(), 'contact') ?>">contact us</a></li><li><a href="<?php echo $this->url(array(), 'making-an-order') ?>">making an order</a></li><li><a href="<?php echo $this->url(array(), 'testimonials')?>">testimonials</a></li><li><a href="<?php echo $this->url(array(), 'press')?>">press</a></li><li><a href="<?php echo $this->url(array(), 'about-us')?>">about-us</a></li><!-- li><a href="<?php echo $this->url(array(), 'links')?>">links</a></li //--></ol></li>
+				</ol>
+				<div class="clearAll"></div>
+			</div>
+		</div>
+		<div id="body">
+			<?php echo $this->layout()->content ?>
+			<div class="clearAll"><!--  --></div>
+		</div>
+		<div id="footer">
+			<div class="content">
+				<p>Copyright &copy; <?php echo date('Y') ?> &middot; All Rights Reserved &middot; Hunkydory Cakes - Sheffield cake &amp; cupcake makers serving the Sheffield, South Yorkshire and Derbyshire area. &middot; <a href="http://w3.me.uk">Website by W3.ME.UK</a></p>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2229074-10']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

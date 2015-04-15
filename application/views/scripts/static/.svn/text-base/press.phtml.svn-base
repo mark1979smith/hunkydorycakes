@@ -1,0 +1,38 @@
+<div id="press">
+	<div id="content">
+		<div id="title"><h1 class="textReplace">Press</h1></div>
+		<div class="clearAll"><!--  --></div>
+		<p>Please click on the images to read more...</p>
+		<table border="0" width="100%">
+			<colgroup>
+				<col width="250"></col>
+				<col width="250"></col>
+				<col width="250"></col>
+				<col width="250"></col>
+			</colgroup>
+			<tr>
+				<td align="center"><img src="/images/press/the-sheffield-star-2011.gif" alt="The Sheffield Star - 2011" width="166" height="284" /></td>
+				<td align="center"><img src="/images/press/sheffield-telegraph-2011.gif" alt="Sheffield Telegraph - 2011" width="166" height="284" /></td>
+				<td align="center"><img src="/images/press/ph-weddings-2011.gif" alt="Royal Wedding photo shoot for The Sheffield Star - 2011" width="166" height="284" /></td>
+				<td align="center"><img src="/images/press/the-sheffield-star-feature-2011.png" alt="Royal Wedding photo shoot for The Sheffield Star - 2011" width="239" height="217" /></td>
+			</tr>
+			<tr>
+				<td><a href="http://www.thestar.co.uk/community/the-diary/asidelines_cakes_like_your_nana_baked_1_3103062">The Sheffield Star</a><br />2011</td>
+				<td><a href="http://www.sheffieldtelegraph.co.uk/lifestyle/cake_making_business_on_the_rise_1_3136665">The Sheffield Telegraph</a><br />2011</td>
+				<td><a href="http://phweddings.co.uk/weddings/royal-wedding-gallery">Royal Wedding photo shoot for The Sheffield Star</a><br />2011</td>
+				<td><a href="http://phweddings.co.uk/weddings/royal-wedding-gallery">Royal Wedding feature in The Sheffield Star</a><br />2011</td>
+			</tr>
+			<tr>
+				<td align="center"><img src="/images/press/postcode-gazette-2011.gif" alt="Postcode Gazette - 2011" width="180" height="255" /></td>
+				<td align="center"><img src="/images/press/mosaic-brides-2011.gif" alt="Mosaic Brides Magazine - 2011" width="164" height="281" /></td>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td><a href="http://postcodegazette.com/url/news/creative-cupcakes-AT-the-dandelion-clock/9000587016/9000587017/">Postcode Gazette</a><br />2011</td>
+				<td><a href="http://issuu.com/cronweb/docs/mosaic-brides-autumn-2011?mode=embed&layout=http%3A%2F%2Fwww.mosaicmagazine.co.uk%2Fissuu%2Fwood%2Flayout.xml">Mosaic Brides Magazine</a><br />2011</td>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+		</table>
+		<div class="clearAll"><!--  --></div>
+	</div>
+</div>

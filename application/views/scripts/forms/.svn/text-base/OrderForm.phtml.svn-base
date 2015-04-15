@@ -1,0 +1,73 @@
+<form method="<?php print $this->element->getMethod(); ?>" action="<?php print $this->element->getAction(); ?>">
+	<input type="hidden" name="cmd" value="_cart" />
+	<input type="hidden" name="business" value="enquiries@hunkydorycakes.co.uk" />
+	<input type="hidden" name="lc" value="US" />
+	<?php echo $this->element->item_name ?>
+	<?php echo $this->element->amount ?>
+	<input type="hidden" name="currency_code" value="GBP" />
+	<input type="hidden" name="button_subtype" value="products" />
+	<input type="hidden" name="no_note" value="0" />
+	<input type="hidden" name="add" value="1" />
+	<input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHostedGuest" />
+		
+	<table id="orderForm" cellspacing="0" cellpadding="0">
+		<thead>
+			<tr>
+				<th class="textReplace" colspan="2">Cake Options</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php $row = 0; $payPalId = -1;
+			if ($this->element->os0) : $row++; $payPalId++; ?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on0" value="Cake Inscription" />Cake Inscription</td>
+				<td class="c2"><?php print $this->element->os0; ?></td>
+			</tr>
+			<?php endif; 
+			$row++; $payPalId++;
+			?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on1" value="Date Required" />Date Required</td>
+				<td class="c2"><?php print $this->element->os1; ?></td>
+			</tr>
+			<?php if ($this->element->os2) : $row++; $payPalId++;?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on2" value="Favour choice" />Favour choice</td>
+				<td class="c2"><?php print $this->element->os2?></td>
+			</tr>
+			<?php endif; 
+			if ($this->element->os3) : $row++; $payPalId++;?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on3" value="Cake size" />Cake size</td>
+				<td class="c2"><?php print $this->element->os3 ?></td>
+			</tr>
+			<?php endif; 
+			if ($this->element->os4) : $row++; $payPalId++;?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on4" value="Cake flavour" />Cake flavour</td>
+				<td class="c2"><?php print $this->element->os4 ?></td>
+			</tr>
+			<?php endif; 
+			if ($this->element->os5) : $row++; $payPalId++;?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on5" value="<?php echo $this->element->os5->getLabel()?>" /><?php echo $this->element->os5->getLabel() ?></td>
+				<td class="c2"><?php print $this->element->os5 ?></td>
+			</tr>
+			<?php endif; 
+			if ($this->element->os6) : $row++; $payPalId++; ?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1"><input type="hidden" name="on6" value="<?php echo $this->element->os6->getLabel() ?>" /><?php echo $this->element->os6->getLabel() ?></td>
+				<td class="c2"><?php print $this->element->os6 ?></td>
+			</tr>
+			<?php endif; 
+			$row++; $payPalId++;
+			?>
+			<tr class="r<?php echo $row ?>">
+				<td class="c1">Delivery to Sheffield?</td>
+				<td class="c2"><div id="shippingCheckbox"><?php print $this->element->shipping ?></div><div id="deliveryPostcode"><input type="hidden" name="on7" value="<?php echo $this->element->os7->getLabel() ?>" /><?php echo $this->element->os7->getLabel() ?>: <?php echo $this->element->os7?></div></td>
+			</tr>
+		</tbody>
+	</table>
+	<input type="image" src="/images/place-order-button.gif" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+	<span id="cakeTotal">&pound;<span>0.00</span></span>
+</form>

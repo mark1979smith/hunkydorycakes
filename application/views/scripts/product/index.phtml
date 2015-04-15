@@ -1,0 +1,110 @@
+<div id="product">
+	<div id="content">
+		<div id="image-container">
+			<img src="/images/products/<?php echo $this->image ?>" />
+			<?php if (strtolower($this->header) == 'english garden') : ?>
+			<br class="clearAll" /><img src="/images/products/extras/english-garden1.png" />
+			<?php elseif (strtolower($this->header) == 'in the night garden') :?>
+			<br class="clearAll" /><img src="/images/products/extras/in-the-night-garden.png" />
+			<?php elseif (strtolower($this->header) == 'baby shower cupcakes') :?>
+			<br class="clearAll" /><img src="/images/products/extras/baby-shower.png" />
+			<?php elseif (strtolower($this->header) == 'crunchy caramel carrot cake') :?>
+			<br class="clearAll" /><img src="/images/products/extras/carrot.png" />
+			<?php elseif (strtolower($this->header) == 'number cakes') :?>
+			<br class="clearAll" /><img src="/images/products/extras/childrens-numbers.png" />
+			<?php elseif (strtolower($this->header) == 'xbox cake') :?>
+			<br class="clearAll" /><img src="/images/products/extras/xbox.png" />
+			<?php elseif (strtolower($this->header) == 'mandy') :?>
+			<br class="clearAll" /><img src="/images/products/extras/mandy.png" />
+			<?php endif;?>
+		</div>
+		<div id="info-container">
+			<div id="title" class="<?php echo $this->titleClass ?>"><h1 class="textReplace"><?php echo $this->title ?></h1></div>
+			<div class="clearAll"><!--  --></div>
+			<h2><?php echo $this->header ?></h2>
+			<?php echo $this->info ?>
+			<?php switch($this->route) :
+				case 'corporate-cakes' :?>
+				<a href="/"><img src="/images/return-homepage.gif" alt="Return to Homepage" /></a>
+				<?php break; 
+				default :?>
+			<a href="<?php echo $this->url(array(), $this->route . '-gallery') ?>" id="back-to-gallery"><img src="/images/return-gallery.gif" alt="Return to Gallery" /></a>
+			<?php endswitch ?>
+			<?php if ($this->days_required > 0 ) : 
+				if ($this->route === 'wedding-cakes') : ?>
+				<p class="uppercase">Please  arrange an appointment to discuss your wedding cake. allow <?php echo $this->days_required ?> working days notice on all wedding cakes, the earlier the better to ensure availability. </p>
+				<?php elseif (isset($this->orderForm)) : ?>
+				<p class="uppercase">Please allow <?php echo $this->days_required ?> working days notice - Collection service available from <a href="<?php echo $this->url(array(), 'contact')?>">Sheffield Address</a>. Delivery to Sheffield post codes costs &pound;10. Deliveries outside of Sheffield may be subject to a larger delivery charge, please call or email us your address and we will provide you with an estimated cost before making your order.</p>
+				<?php endif; ?>
+			<?php endif; ?>
+			<?php if (is_null($this->noticeBoard)) :?>
+				<?php //echo $this->orderForm; ?>		
+				<?php //echo $this->orderFormText; ?>
+			<?php else : ?>
+				<?php echo $this->noticeBoard ?>
+			<?php endif; ?>	
+			<?php switch ($this->route) :
+				case 'cupcakes':
+					if ($this->header != 'wedding cupcakes') :?>
+					<p>All cupcakes will be decorated to the same standard as the picture. Because our cupcakes are hand made, fresh to order, designs may vary slightly to that of the picture displayed. Various cupcake cases available upon request, please contact us by phone on 0114 266 4573 or email <a href="mailto:enquiries@hunkydorycakes.co.uk">enquiries@hunkydorycakes.co.uk</a> to place your order &amp; find out more.</p>
+					<?php endif ?>
+				<?php break;
+				case 'anniversary-cakes': ?>
+					<p>All cakes will be decorated to the same standard as the picture. Because our cakes are hand made, fresh to order, designs may vary slightly to that of the picture displayed.</p>
+				<?php break;
+				case 'favours': ?>
+					<p>All favours will be decorated to the same standard as the picture. Because our favours are hand made, fresh to order, designs may vary slightly to that of the picture displayed.</p>
+					<p>On larger orders the price will drop please give Hunkydory Cakes a call on 0114 266 4573 or email <a href="mailto:enquiries@hunkydorycakes.co.uk">enquiries@hunkydorycakes.co.uk</a> for a quote.</p>
+				<?php break; ?>
+			<?php endswitch; ?>	
+			<?php if (strtolower($this->header) == 'francesca') :?>
+			<br class="clearAll" /><img src="/images/products/extras/franchesca.png" />
+			<?php elseif (strtolower($this->header) == 'helen') :?>
+			<br class="clearAll" /><img src="/images/products/extras/helen.png" />
+			<?php elseif (strtolower($this->header) == 'victoria') :?>
+			<br class="clearAll" /><img src="/images/products/extras/victoria.png" />
+			<?php elseif (strtolower($this->header) == 'amy') :?>
+			<br class="clearAll" /><img src="/images/products/extras/amy.png" />
+			<?php elseif (strtolower($this->header) == 'basia') :?>
+			<br class="clearAll" /><img src="/images/products/extras/basia.png" />
+			<?php elseif (strtolower($this->header) == 'claire') :?>
+			<br class="clearAll" /><img src="/images/products/extras/claire.png" /><br class="clearAll"><p align="right">Photographs by <a href="http://www.facebook.com/nicolgarnon" target="_blank">Nicol Garnon</a></p>
+			<?php elseif (strtolower($this->header) == 'wedding cupcake/cake tower') :?>
+			<br class="clearAll" /><img src="/images/products/extras/cupcake-and-cake-tower.png" />
+			<?php elseif (strtolower($this->header) == 'bird') :?>
+			<br class="clearAll" /><img src="/images/products/extras/bird.png" />
+			<?php elseif (strtolower($this->header) == 'jemma') :?>
+			<br class="clearAll" /><img src="/images/products/extras/jemma.png" />
+			<?php elseif (strtolower($this->header) == 'charlotte') :?>
+			<br class="clearAll" /><img src="/images/products/extras/charlotte.jpg" />
+			<?php elseif (strtolower($this->header) == 'vintage rose') :?>
+			<br class="clearAll" /><img src="/images/products/extras/vintage-rose.png" />
+			<?php elseif (strtolower($this->header) == 'camera cake') :?>
+			<br class="clearAll" /><img src="/images/products/extras/camera.png" />
+			<?php endif; ?>
+		</div>
+		<div class="clearAll"><!--  --></div>
+		<?php if (strtolower($this->header) == 'vintage lace') :?>
+			<br class="clearAll" /><img src="/images/products/extras/vintage-lace.png" />
+		<?php elseif (strtolower($this->header) == 'under the sea') :?>
+			<br class="clearAll" /><img src="/images/products/extras/under-the-sea.png" />
+		<?php elseif (strtolower($this->header) == 'chocolate cigarello') :?>
+			<br class="clearAll" /><img src="/images/products/extras/chocolate-cigarello.png" />
+		<?php elseif (preg_match('/bespoke\-version\-1/', $this->image)) :?>
+			<br class="clearAll" /><img src="/images/products/extras/bespoke-version-1.png" />
+		<?php elseif (strtolower($this->header) == 'white rubrum lily spray') :?>
+		<br class="clearAll" /><img src="/images/products/extras/lily-spray.png" />
+		<?php elseif (strtolower($this->header) == 'wedding cupcakes') :?>
+		<br class="clearAll" /><img src="/images/products/extras/wedding-cupcake.png" />
+		<?php elseif (strtolower($this->header) == 'graffiti cake') :?>
+		<br class="clearAll" /><img src="/images/products/extras/graffitti.png" />
+		<?php elseif (strtolower($this->header) == 'heart shaped cake with roses') :?>
+		<br class="clearAll" /><img src="/images/products/extras/anniversary-heart.png" />
+		<?php elseif (strtolower($this->header) == 'roses and brooch') :?>
+		<br class="clearAll" /><img src="/images/products/extras/anniversary-rose.png" />
+		<?php elseif (strtolower($this->header) == 'suitcase cake') :?>
+		<br class="clearAll" /><img src="/images/products/extras/suitcase.png" />
+		<?php endif ?>
+	</div>
+	<div class="clearAll"><!--  --></div>
+</div>

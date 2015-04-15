@@ -1,0 +1,33 @@
+<div id="childrens-cakes-gallery">
+	<div id="content">
+		<div id="bespoke"><p class="textReplace">Not what you're after? We can create a bespoke cake! Drop us an email or give us a call.</p></div>
+		<div id="title"><h1 class="textReplace">Children's Gallery</h1></div>
+		<div id="further_info"><h2 class="textReplace">Please click on the cake for further information &amp; prices.</h2></div>
+		<div class="clearAll"><!--  --></div>
+		<ol id="gallery">
+			<li class="r1 c1"><a href="<?php echo $this->url(array(), 'football-themed-1-cake') ?>"><span>football themed</span></a></li>
+			<li class="r1 c2"><a href="<?php echo $this->url(array(), 'bathing-hippo-cake') ?>"><span>bathing hippo</span></a></li>
+			<li class="r1 c3"><a href="<?php echo $this->url(array(), 'kermit-cake')?>"><span>kermit</span></a></li>
+			<li class="r1 c4"><a href="<?php echo $this->url(array(), 'football-themed-2-cake') ?>"><span>football themed</span></a></li>
+			<li class="r1 c5"><a href="<?php echo $this->url(array(), 'minnie-mouse-cake')?>"><span>minnie mouse</span></a></li>
+			<li class="r2 c1"><a href="<?php echo $this->url(array(), 'cowboy-cake')?>"><span>cowboy</span></a></li>
+			<li class="r2 c2"><a href="<?php echo $this->url(array(), 'in-the-night-garden-cake')?>"><span>in the night garden</span></a></li>
+			<li class="r2 c3"><a href="<?php echo $this->url(array(), 'graffitti-cake') ?>"><span>graffiti cake</span></a></li>
+			<li class="r2 c4"><a href="<?php echo $this->url(array(), 'childrens-numbers') ?>"><span>childrens numbers</span></a></li>
+			<li class="r2 c5"><a href="<?php echo $this->url(array(), 'xbox-cake') ?>"><span>xbox cake</span></a></li>
+			<li class="r3 c1"><a href="<?php echo $this->url(array(), 'rugby-cake') ?>"><span>rugby</span></a></li>
+			<li class="r3 c2"><a href="<?php echo $this->url(array(), 'childrens-winnie-cake') ?>"><span>winnie the pooh</span></a></li>
+			<li class="r3 c3"><a href="<?php echo $this->url(array(), 'childrens-spiderman-cake') ?>"><span>spiderman</span></a></li>
+			<li class="r3 c4"><a href="<?php echo $this->url(array(), 'childrens-fireman-sam-cake') ?>"><span>fireman sam</span></a></li>
+			<li class="r3 c5"><a href="<?php echo $this->url(array(), 'childrens-hook-cake') ?>"><span>hook</span></a></li>
+			<li class="r4 c1"><a href="<?php echo $this->url(array(), 'childrens-vintage-rose') ?>"><span>vintage rose</span></a></li>
+			<li class="r4 c2"><a href="<?php echo $this->url(array(), 'childrens-toy-story') ?>"><span>toy story</span></a></li>
+			<li class="r4 c3"><span>watch this space!</span></li>
+			<li class="r4 c4"><span>watch this space!</span></li>
+			<li class="r4 c5"><span>watch this space!</span></li>
+		</ol>
+		<div class="clearAll"><!--  --></div>
+		<div id="things-to-know"><a href="<?php echo $this->url(array(), 'making-an-order') ?>"><img src="/images/things-to-know-order.gif" alt="Things to know when making an order" /></a></div>
+		<div id="return-home"><a href="<?php echo $this->url(array(), 'childrens-cakes')?>"><img src="/images/return-homepage.gif" alt="Return to the homepage" /></a></div>
+	</div>
+</div>

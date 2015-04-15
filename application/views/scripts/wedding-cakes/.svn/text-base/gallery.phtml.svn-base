@@ -1,0 +1,28 @@
+<div id="wedding-cakes-gallery">
+	<div id="content">
+		<div id="bespoke"><p class="textReplace">Not what you're after? We can create a bespoke cake! Drop us an email or give us a call.</p></div>
+		<div id="title"><h1 class="textReplace">Wedding Gallery</h1></div>
+		<div id="further_info"><h2 class="textReplace">Please click on the cake for further information &amp; prices.</h2></div>
+		<div class="clearAll"><!--  --></div>
+		<ol id="gallery">
+			<li class="r1 c1"><a href="<?php echo $this->url(array(), 'wedding-mandy') ?>"><span>mandy</span></a></li>
+			<li class="r1 c2"><a href="<?php echo $this->url(array(), 'wedding-franchesca') ?>"><span>francesca</span></a></li>
+			<li class="r1 c3"><a href="<?php echo $this->url(array(), 'wedding-helen') ?>"><span>helen</span></a></li>
+			<li class="r1 c4"><a href="<?php echo $this->url(array(), 'wedding-victoria') ?>"><span>victoria</span></a></li>
+			<li class="r1 c5"><a href="<?php echo $this->url(array(), 'wedding-amy') ?>"><span>amy</span></a></li>
+			<li class="r2 c1"><a href="<?php echo $this->url(array(), 'wedding-anna') ?>"><span>anna</span></a></li>
+			<li class="r2 c2"><a href="<?php echo $this->url(array(), 'wedding-basia') ?>"><span>basia</span></a></li>
+			<li class="r2 c3"><a href="<?php echo $this->url(array(), 'wedding-claire') ?>"><span>claire</span></a></li>
+			<li class="r2 c4"><a href="<?php echo $this->url(array(), 'wedding-chocolate-cigarello') ?>"><span>cigarello</span></a></li>
+			<li class="r2 c5"><a href="<?php echo $this->url(array(), 'wedding-dots-stripes-and-hearts') ?>"><span>dots/stripes/heart</span></a></li>
+			<li class="r3 c1"><a href="<?php echo $this->url(array(), 'wedding-under-the-sea') ?>"><span>under the sea</span></a></li>
+			<li class="r3 c2"><a href="<?php echo $this->url(array(), 'wedding-cupcake-tower') ?>"><span>cupcake tower</span></a></li>
+			<li class="r3 c3"><a href="<?php echo $this->url(array(), 'wedding-cupcake-and-cake') ?>"><span>cupcake &amp; cake</span></a></li>
+			<li class="r3 c4"><a href="<?php echo $this->url(array(), 'wedding-jemma') ?>"><span>jemma</span></a></li>
+			<li class="r3 c5"><a href="<?php echo $this->url(array(), 'wedding-charlotte') ?>"><span>charlotte</span></a></li>
+		</ol>
+		<div class="clearAll"><!--  --></div>
+		<div id="things-to-know"><a href="<?php echo $this->url(array(), 'making-an-order') ?>"><img src="/images/things-to-know-order.gif" alt="Things to know when making an order" /></a></div>
+		<div id="return-home"><a href="<?php echo $this->url(array(), 'wedding-cakes')?>"><img src="/images/return-homepage.gif" alt="Return to the homepage" /></a></div>
+	</div>
+</div>
